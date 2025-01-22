@@ -43,6 +43,12 @@ pip install -r requirements.txt
 
 ## Usage
 1. Initialize the database and fetch initial data
+
+## configuration
+2. Create a `.env` file in the prject root
+2. Add the folowing variables :
+GITHUB_TOKEN=your_personal_access_token
+3. Run the application : 
 python main.py
 
 2.The script will:
